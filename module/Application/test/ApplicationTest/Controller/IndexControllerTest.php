@@ -24,7 +24,6 @@ class IndexControllerTest extends AbstractHttpControllerTestCase
         //$this->assertControllerName('application_controller_index');
         $this->assertTemplateName('application/index/index');
         $this->assertControllerClass('IndexController');
-        $this->assertQuery('public/css/bootstrap.min.css');
         $this->assertMatchedRouteName('home');
     }
 }
